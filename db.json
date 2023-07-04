@@ -2,110 +2,78 @@
     "Users": [
         {
             "id": 1,
-            "name": [
-                {
-                    "firstname": "Carlotta",
-                    "surname": "Mannucci"
+            "name": {
+                "firstname": "Carlotta",
+                "surname": "Mannucci"
+            },
+            "location": {
+                "street": {
+                    "number": 3,
+                    "name": "Via Manzoni"
+                },
+                "city": "Roma",
+                "state": "Italia",
+                "country": "Italia",
+                "postcode": "00149",
+                "coordinates": {
+                    "latitude": 12345,
+                    "longitude": 67890
                 }
-            ],
-            "location": [
-                {
-                    "street": [
-                        {
-                            "number": 3,
-                            "name": "Via Manzoni"
-                        }
-                    ],
-                    "city": "Roma",
-                    "state": "Italia",
-                    "country": "Italia",
-                    "postcode": "00149",
-                    "coordinates": [
-                        {
-                            "latitude": 12345,
-                            "longitude": 67890
-                        }
-                    ]
-                }
-            ],
-            "contacts": [
-                {
-                    "email": "carlotta@gmail.com",
-                    "phone": "+393213232190"
-                }
-            ]
+            },
+            "contacts": {
+                "email": "carlotta@gmail.com",
+                "phone": "+393213232190"
+            }
         },
         {
             "id": 2,
-            "name": [
-                {
-                    "firstname": "Luca",
-                    "surname": "Albertini"
+            "name": {
+                "firstname": "Luca",
+                "surname": "Albertini"
+            },
+            "location": {
+                "street": {
+                    "number": 2,
+                    "name": "Via Garibaldi"
+                },
+                "city": "Pomezia",
+                "state": "Italia",
+                "country": "Italia",
+                "postcode": "00070",
+                "coordinates": {
+                    "latitude": 9876,
+                    "longitude": 54321
                 }
-            ],
-            "location": [
-                {
-                    "street": [
-                        {
-                            "number": 2,
-                            "name": "Via Garibaldi"
-                        }
-                    ],
-                    "city": "Pomezia",
-                    "state": "Italia",
-                    "country": "Italia",
-                    "postcode": "00070",
-                    "coordinates": [
-                        {
-                            "latitude": 9876,
-                            "longitude": 54321
-                        }
-                    ]
-                }
-            ],
-            "contacts": [
-                {
-                    "email": "luca@gmail.com",
-                    "phone": "+393381443234"
-                }
-            ]
+            },
+            "contacts": {
+                "email": "luca@gmail.com",
+                "phone": "+393381443234"
+            }
         },
         {
             "id": 3,
-            "name": [
-                {
-                    "firstname": "Olga",
-                    "surname": "Demina"
+            "name": {
+                "firstname": "Olga",
+                "surname": "Demina"
+            },
+            "location": {
+                "street": {
+                    "number": 1,
+                    "name": "Via Vespucci"
+                },
+                "city": "Agrigento",
+                "state": "Italia",
+                "country": "Italia",
+                "postcode": "00019",
+                "coordinates": {
+                    "latitude": 4444,
+                    "longitude": 5555
                 }
-            ],
-            "location": [
-                {
-                    "street": [
-                        {
-                            "number": 1,
-                            "name": "Via Vespucci"
-                        }
-                    ],
-                    "city": "Agrigento",
-                    "state": "Italia",
-                    "country": "Italia",
-                    "postcode": "00019",
-                    "coordinates": [
-                        {
-                            "latitude": 4444,
-                            "longitude": 5555
-                        }
-                    ]
-                }
-            ],
-            "contacts": [
-                {
-                    "email": "olga@gmail.com",
-                    "phone": "+393385409876"
-                }
-            ]
+            },
+            "contacts": {
+                "email": "olga@gmail.com",
+                "phone": "+393385409876"
+            }
         }
     ]
 }
-
-
